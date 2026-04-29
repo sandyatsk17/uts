@@ -26,7 +26,7 @@ body {
     padding: 0 20px;
 }
 
-/* --- Navigation --- */
+
 header {
     background: var(--dark-bg);
     color: var(--white);
@@ -70,7 +70,7 @@ nav ul li a:hover {
     color: var(--primary-color);
 }
 
-/* --- Hero Section --- */
+
 .hero-section {
     background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
                 url('https://images.unsplash.com/photo-1540575861501-7ad05823c95b?auto=format&fit=crop&w=1350&q=80');
@@ -124,7 +124,7 @@ nav ul li a:hover {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* --- Registration Section --- */
+
 .register-section {
     padding: 60px 20px;
 }
@@ -171,7 +171,7 @@ input, select {
     background-color: var(--primary-color);
 }
 
-/* --- Footer --- */
+
 footer {
     background: var(--dark-bg);
     color: var(--white);
@@ -180,7 +180,7 @@ footer {
     margin-top: 50px;
 }
 
-/* --- Responsive Media Query --- */
+
 @media (max-width: 768px) {
     .about-grid {
         grid-template-columns: 1fr;
